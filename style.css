@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+height: 100vh;
+background-color: purple;
+}
+.container{
+    width: 80% ;
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1rem 3rem;
+}
+h3{
+    font-size: 2rem;
+    text-shadow: 3px 3px 8px rgb(128, 124, 124);
+}
+p{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+button.copy-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+
+
+}
+img{
+    margin-left: 1rem;
+    width: 20px; 
+    cursor: pointer;
+
+
+}
+img:hover{ 
+opacity: .7;
+}
+img:active{ 
+    opacity: .9;
+}
+input{
+    width: 70px;
+    height: 40px;
+}
+
+button{
+    padding: 1rem ;
+    width: 200px;
+    white-space: nowrap;
+    font-size: 1.3rem;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+button:hover{
+    opacity: .8;
+}
+button:active{
+    box-shadow: -1px -1px 10px black;
+}
+button.click{
+    background-color: #28b328;
+    color:#fff ;
+}
+button.mouse-over{
+    background-color: rgb(40, 147, 179);
+    color:#fff ;
+}
+
+
+
+
+
