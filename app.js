@@ -6,20 +6,18 @@ const colorValue = document.querySelector("p");
 const copyBtn = document.querySelector("button.copy-btn");
 const copySpan = document.querySelector("button.copy-btn span");
 
-
+//color generator
 const generateRandomColor = ()=>{
     let randomColor = Math.floor(Math.random()*16777215).toString(16);
     return '#'+ randomColor;
  }
 
-
+//inital coilor adjustments
 inputColor.value = generateRandomColor();
 colorValue.textContent = inputColor.value;
-
-
 body.style.backgroundColor = inputColor.value;
 
-
+//click button event
 clickBtn.onclick = () => {
     inputColor.value = generateRandomColor();
     body.style.backgroundColor = inputColor.value;
@@ -32,6 +30,8 @@ clickBtn.onclick = () => {
 
 
 }
+
+//mouse over button event
 mouseOverBtn.onmouseover = () => {
     inputColor.value = generateRandomColor();
     body.style.backgroundColor = inputColor.value;
@@ -44,7 +44,7 @@ mouseOverBtn.onmouseover = () => {
 
 
 
-
+//copy event
 copyBtn.onclick  = function() {
     console.log('testt');
     // Metni seç
@@ -68,8 +68,6 @@ copyBtn.onclick  = function() {
     "-webkit-text-stroke-width: 1px;    -webkit-text-stroke-color: white;";
 
     copyBtn.style.backgroundColor = inputColor.value;
-    // copyBtn.style.padding = "20px 40px";
-    // copyBtn.style.border = "7px double"; 
     
   }
  
