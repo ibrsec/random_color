@@ -21,6 +21,7 @@ body.style.backgroundColor = inputColor.value;
 clickBtn.onclick = () => {
     inputColor.value = generateRandomColor();
     body.style.backgroundColor = inputColor.value;
+    colorValue.textContent = inputColor.value;
 
 
     colorValue.style.color = "black"
@@ -35,6 +36,7 @@ clickBtn.onclick = () => {
 mouseOverBtn.onmouseover = () => {
     inputColor.value = generateRandomColor();
     body.style.backgroundColor = inputColor.value;
+    colorValue.textContent = inputColor.value;
 
     colorValue.style.color = "black"
     copySpan.innerHTML = "Copy";
