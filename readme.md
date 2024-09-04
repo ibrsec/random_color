@@ -15,7 +15,7 @@
     <a href="https://github.com/ibrsec/random_color"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ibrsec.github.io/random_color/">View Demo</a>
+    <a href="https://random-color-ruby.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/ibrsec/random_color/issues">Report Bug</a>
     ·
@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![random_color](./project.png)](https://ibrsec.github.io/random_color/)
+[![random_color](./project.png)](https://random-color-ruby.vercel.app/)
 
 
 
